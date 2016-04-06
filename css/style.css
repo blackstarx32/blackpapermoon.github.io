@@ -1,0 +1,115 @@
+/**
+ * ======================================
+ * GENERICS
+ * ======================================
+ */
+body {
+	font-size: 14px;
+	font-family: 'Roboto Mono';
+	overflow-y: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+/**
+ * ======================================
+ * HELPERS
+ * ======================================
+ */
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+/**
+ * ======================================
+ * NAVIGATION
+ * ======================================
+ */
+ header {
+ 	position: fixed;
+ 	width: 100vw;
+ 	background-color: white;
+ }
+
+ .navigation {
+ 	height: 8vh;
+ }
+
+ .navigation__link {
+ 	text-transform: uppercase;
+ 	font-size: 12px;
+ }
+
+
+ /**
+ * ======================================
+ * CONTENT
+ * ======================================
+ */
+.content {
+	max-width: 100vw;
+	min-width: 100vw;
+	display: flex;
+}
+
+.content__link {
+ 	float: left;
+ 	display: block;
+ 	width: 320px;	
+ 	height: 100vh;
+ 	color: white;
+ 	box-sizing: border-box;
+ 	padding: 40px;
+}
+
+.content__title {
+	font-size: 45px;
+}
+
+.content__date,
+.content__hint {
+	font-size: 12px;
+}
+
+.content__text {
+	font-size: 15px;
+}
+
+.content__date,
+.content__hint {
+	text-transform: uppercase;
+}
+
+/**
+ * ======================================
+ * COLOR PALLET
+ * ======================================
+ */
+.color-red {
+	background-color: #F44336;
+}
+
+.color-pink {
+	background-color: #E91E63;
+}
+
+.color-purple {
+	background-color: #9C27B0;
+}
+
+.color-deep-purple {
+	background-color: #673AB7;
+}
+
+.color-indigo {
+	background-color: #3F51B5;
+}
